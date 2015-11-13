@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Angular 2 Demo</title>
+    <script src="./lib/system.js"></script>
+    <script src="./lib/typescript.js"></script>
+    <!--<script src="./node_modules/es6-shim/es6-shim.js"></script>-->
+    <script src="./lib/angular2.dev.js"></script>
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: { emitDecoratorMetadata: true }
+        });
+        System.import('./components/app.ts');
+    </script>
 </head>
 <body>
-
+    <ng-demo>loading...</ng-demo>
 </body>
 </html>
