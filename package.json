@@ -4,6 +4,8 @@
   "description": "A simple angular2 application for session in TreeNewBee project.",
   "main": "index.js",
   "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +27,11 @@
   "homepage": "https://github.com/trotyl/angular2-demo#readme",
   "dependencies": {
     "angular2": "^2.0.0-alpha.46",
-    "es6-shim": "^0.33.12"
+    "es6-shim": "^0.33.12",
+    "systemjs": "^0.19.5"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
   }
 }
