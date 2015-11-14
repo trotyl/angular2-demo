@@ -3,7 +3,7 @@
 A session that introducing the angular2 framework in TreeNewBee project.
 
 
-## Essentials
+## Summary
 
 Angular 2 is the next generation of Angular project of Google, mainly to provide the best powerful and effectively framework of the web front-end.
 
